@@ -69,28 +69,30 @@ grid-gap: 20px;
 .content3 {
   display: grid;/* This is the parent of the activity 3 boxes. */
   grid-template-columns: 1fr 1fr;
-  justify-items: left;
+  justify-items: center;
 }
 .red3 {
-  width: 100%; 
+  width: 50%; 
   height: 100px; 
   background-color: red;
   grid-column: 1/4; 
 } 
 .green3 {
-  width: 1250px; 
+  width: 600px; 
   height: 200px; 
   background-color: green;
   grid-column: 1;
+  margin-left: 650px;
 } 
 .yellow3 {
-  width: 1250px; 
+  width: 600px; 
   height: 200px; 
   background-color: gold; 
   grid-column: 3;
+  margin-right: 650px;
 } 
 .blue3 {
-  width: 100%;
+  width: 50%;
   height: 100px; 
   background-color: blue; 
   grid-column: 1/4;
